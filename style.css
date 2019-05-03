@@ -74,7 +74,9 @@ li {
 .content {
   padding: 5% 10%;
 }
-
+.name-headline {
+  padding : 4%;
+}
 body {
   background-image: url('https://i.imgur.com/qNtBDRP.jpg');
   background-repeat: no-repeat;
@@ -91,7 +93,7 @@ body {
 img {
   padding: 1px;
   background-color: #666;
-  filter: grayscale(50%);
+  /*filter: grayscale(50%);*/
 }
 
 .content {
