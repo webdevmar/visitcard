@@ -47,8 +47,8 @@ body {
 }
 
 img {
-  width: 120px;
-  height: 120px;
+  width: 135px;
+  height: 135px;
   border-radius: 50%;
 }
 
@@ -74,9 +74,11 @@ li {
 .content {
   padding: 5% 10%;
 }
+
 .name-headline {
-  padding : 4%;
+  padding: 4%;
 }
+
 body {
   background-image: url('https://i.imgur.com/qNtBDRP.jpg');
   background-repeat: no-repeat;
@@ -103,14 +105,14 @@ img {
 img:hover {
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
-  filter: grayscale(20%);
+  /*filter: grayscale(20%);*/
 }
 
 .social-icon {
   display: border-box;
   color: black;
   font-size: 200%;
-  margin: 5px;
+  margin: 6px;
   transition: 0.4s;
 }
 
