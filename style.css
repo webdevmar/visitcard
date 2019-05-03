@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 100%;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .profile-card {
@@ -13,9 +13,9 @@
 }
 
 .about {
-  
+
   text-align: center;
-  
+
 }
 
 /* Positioning */
@@ -24,29 +24,38 @@
   width: 480px;
   max-width: calc(100vw - 10px);
 }
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 body {
   height: 100vh;
 }
-.head, .links {
+
+.head,
+.links {
   text-align: center;
 }
-.head, .content {
+
+.head,
+.content {
   width: 90%;
   margin: 0 auto;
 }
+
 img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
 }
+
 .profile-image {
   margin-top: -60px;
 }
+
 /* Linki kontaktowe */
 
 ul {
@@ -56,37 +65,45 @@ ul {
 li {
   display: inline;
 }
-.head, .about {
+
+.head,
+.about {
   margin-bottom: 10%;
 }
 
 .content {
   padding: 5% 10%;
 }
+
 body {
   background-image: url('https://i.imgur.com/qNtBDRP.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
 }
+
 .profile-card {
   background-color: hsla(0, 0%, 100%, .5);
   border-radius: 4px;
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
 }
+
 img {
   padding: 1px;
   background-color: #666;
   filter: grayscale(50%);
 }
+
 .content {
   border-top: 1px solid hsla(0, 0%, 30%, .8);
 }
+
 img:hover {
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
   filter: grayscale(20%);
 }
+
 .social-icon {
   display: border-box;
   color: black;
@@ -94,9 +111,11 @@ img:hover {
   margin: 5px;
   transition: 0.4s;
 }
+
 .social-icon:hover {
   color: #054C87;
 }
+
 a {
   text-decoration: none;
   color: black;
