@@ -23,6 +23,7 @@
 .profile-card {
   width: 480px;
   max-width: calc(100vw - 10px);
+  height: 500px;
 }
 
 body {
