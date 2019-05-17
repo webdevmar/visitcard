@@ -23,7 +23,6 @@
 .profile-card {
   width: 480px;
   max-width: calc(100vw - 10px);
-  height: 500px;
 }
 
 body {
@@ -48,8 +47,8 @@ body {
 }
 
 img {
-  width: 135px;
-  height: 135px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
 }
 
