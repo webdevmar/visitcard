@@ -58,6 +58,7 @@ img {
 
 .profile-image {
   margin-top: -60px;
+  padding-bottom: 10px;
 }
 
 /* Linki kontaktowe */
@@ -80,7 +81,7 @@ li {
 }
 
 .name-headline {
-  padding: 4%;
+  padding: 4%, 4%, 0%, 4%;
 }
 
 body {
@@ -116,7 +117,7 @@ img:hover {
   display: border-box;
   color: black;
   font-size: 200%;
-  margin: 6px;
+  margin: 7px;
   transition: 0.4s;
 }
 
